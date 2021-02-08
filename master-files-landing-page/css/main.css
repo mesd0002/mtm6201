@@ -1,0 +1,146 @@
+/* Tom Brady ftw*/
+/* Adding fonts for entire website*/
+
+/* Heading 1 font */
+@font-face {
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-family: month1;
+}
+/* Heading 2 font */
+@font-face {
+    src: url(fonts/Montserrat-Medium.ttf);
+    font-family: month2;
+}
+/* Heading 3 font */
+@font-face {
+    src: url(fonts/Montserrat-Thin.ttf);
+    font-family: month3;
+}
+/* Heading 4 font */
+@font-face {
+    src: url(fonts/Montserrat-Light.ttf);
+    font-family: month4;
+}
+
+/* Actually assigning the fonts 
+   Adjusting each Header to look like mock up*/
+
+h1 {
+   font-family: month1;
+   font-size: 400%;
+   
+}
+
+h2 {
+    font-family: month2;
+ }
+
+ h3 {
+    font-family: month3;
+ }
+
+ h4 {
+    font-family: month4;
+ }
+
+/* Adding background colour, assigning font family*/
+body {
+    background-color: #f7f7ff;
+    margin: 0;
+    padding: 0;
+    font-family: month4;
+}
+
+.purple-background {
+    padding: 10%;
+   }
+}
+
+/* Adjusting size of logo image */
+ .logo {
+     width: 15%;
+     height: 15%;
+  }
+
+ /*Fixing size of scooter image */
+.scooter {
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*creating box for apply now form */
+.container {
+    border-radius: 25px;
+    background-color: white;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 5px 15px -5px;
+       
+}
+/* trying to match font with mock-up */
+.container h4 {
+    font-size: small;
+}
+
+.drivewithus {
+    padding: 10px;
+    border: 5px #57eeab;
+    border-radius: 5px;
+    background-color: #57eeab;
+    font-family: month1;
+    color: #333131;
+    width: 100%;
+        
+}
+
+
+/* creating Calculate button, making orange, white text, increasing font, trying to add padding */
+
+.calculate {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 5px #57eeab;
+    border-radius: 5px;
+    background-color: #ff8480;
+    font-family: month1;
+    color: white;
+    width: 80%;
+}
+
+/* trying to make form text darker grey and background input area grey */
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #f4f4f5;
+    color: grey;
+    border: none;
+    width: 82%;
+}
+
+/* adding padding to footer and filling whole page with background colour */
+footer {
+    background-color: #fffd8c;
+    width: 100%;
+    padding: 25px;
+      }
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+ /* Styles applied for minimum width of 650px and over for desktop*/
+@media screen and (min-width: 650px){
+   .footer {
+       display: flex;
+       
+   }
+}
