@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Mesdag Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="/CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation menu-->
+    <div class="navigation">
+        <nav>
+            <ul class="nav-boxes">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Creating area for background image and h1 and h3 -->
+    <div class="topofthepage">
+        <h1>Kyle Mesdag</h1>
+        <h3>Digital Media Creator | Ottawa, Ontario, Canada</h3>
+    </div>
+
+    <!-- creating image gallery attempted to set up grid for the 50505050505 time becoming superstitious-->
+    <h2>Portfolio</h2>
+    <!--adding id so I can add jump links-->
+    <div id="portfolio"></div>
+    <h4>Check out my work</h4>
+    <div class="container">
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/1-beer1.jpg" alt="Timbersaw1">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/1-beer2.jpg" alt="Timbersaw2">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/1-beer3.jpg" alt="Timbersaw3">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/cherry-1.jpg" alt="Cherry1">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/cherry-2.jpg" alt="Cherry2">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/cherry-3.jpg" alt="Cherry3">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/3-beer1.jpg" alt="Timbersaw1">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/3-beer2.jpg" alt="Timbersaw2">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="image">
+                    <img src="images/3-beer3.jpg" alt="Timbersaw3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Creating divs for testimonial grid. Would like to have client imgs flip from their photo to 5 star graphic on hover but cou;dn't get it to work. -->
+
+    <div class="bck-colour">
+        <h2>Client Testimonials</h2>
+        <h4>Here's what our clients have to say</h4>
+    </div>
+
+    <div class="testimonial-section">
+        <div class="column1">
+            <img src="images/meritt-girl-2.png" alt="Ashley Bryson">
+            <h3>Ashley Bryson</h3>
+            <p>Kyle does all the hard media stuff for my e-commerce website. It's amazing to just be able to pick up the
+                phone and get help whenever I need it. He's really helped me increase my sales.</p>
+        </div>
+
+        <div class="column2">
+            <img src="images/micheal-3.png" alt="June Smith">
+            <h3>June Smith</h3>
+            <p>I've been working with Kyle for the last five years and it's been fantastic. Always impressed with the
+                quality of the work!</p>
+        </div>
+        <!--Adding id for jump link for testimonials-->
+        <div id="testimonials"></div>
+
+        <div class="column3">
+            <img src="images/jonas-1.png" alt="Thierry Spiers">
+            <h3>Thierry Spiers</h3>
+            <p>I can always count on Kyle to be a professional. Always on time, and has an answer or solution for all my
+                media needs. Haven't looked elsewhere!</p>
+        </div>
+    </div>
+
+    <div class="Contact-section">
+        <h2>Contact Us</h2>
+        <h3>If you think we'd work well together please reach out!</h3>
+        <!-- Creating contact id for jumplink -->
+        <div id="contact"></div>
+        <!-- Creating contact form -->
+        <form class="form" action="/action_page.php">
+
+            <input type="text" id="fname" name="fname" value="First Name"><br>
+
+            <input type="text" id="lname" name="lname" value="Last Name"><br>
+
+            <input type="text" id="email" name="email" value="Email address"><br>
+
+            <input type="text" id="comment" name="Message" value="Message"><br>
+
+            <!--line break to keep the submit button below-->
+            <br>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="blog-section">
+        <div class="text-section">
+            <H2>Featured Blog</H2>
+            <p>Donec vel risus dolor. Donec fringilla turpis sed massa accumsan maximus. Donec sapien eros, rhoncus id
+                porttitor quis, egestas in sem. Nulla sed congue diam. Fusce ut erat a sem finibus malesuada vitae
+                efficitur neque. Aenean pulvinar purus ac mi pretium, vel pretium odio ultricies. Aliquam erat volutpat.
+                Phasellus feugiat nisl ex, id aliquam magna accumsan sed. Maecenas egestas sem vitae nisi pretium
+                feugiat sit amet vitae libero.</p>
+                <div class="btn-1">
+            <a href="Blog.html">Read more</a>
+        </div>
+        </div>
+        <div class="right-img">
+            <img src="images/surface-DtW-E6BcSNE-unsplash.jpg" alt="Tablet Productivity">
+        </div>
+    </div>
+</body>
+
+</html>
