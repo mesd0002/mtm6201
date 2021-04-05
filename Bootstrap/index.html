@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>The Benefits of Bootstrap</title>
+</head>
+<!--Where it all begins!-->
+
+<body>
+    <!--adding jumbotron header img-->
+    <header class="jumbotron">
+        <div>
+            <img class="img-fluid" src="images/header-img2.jpg" alt="wall of code">
+        </div>
+    </header>
+    <!-- adding navigation tabs-->
+    <nav class="navbar
+            py-2
+            navbar-expand-sm
+            bg-dark
+            navbar-dark
+            fixed-top">
+        <!--navigation links-->
+        <div class="navbar-nav px-3">
+            <a href="#" class="nav-link active"><img src="images/logo-02-01.png" alt="Bootstrap logo"></a>
+            <a href="#benefits" class="nav-link active">Benefits</a>
+            <a href="#testimonials" class="nav-link active">Testimonials</a>
+            <a href="#resources" class="nav-link active">Resources</a>
+            <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="nav-link active">Get
+                Started</a>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <!--Adding container for content, added padding to bring headings under navbar-->
+        <div class="container">
+
+            <h1 class="h1 text-center font-weight-bold py-3">The Benefits on Bootstrap!</h1>
+            <h2 class="h2 text-center">Have you ever tried to teach yourself how to code only to throw your computer out
+                the
+                window in frustration? Well look no further, we have the solution for you!</h2>
+            <div class="container">
+                <img class="img-fluid mx-auto d-block py-2" src="images/cracked-screen.jpg"
+                    alt="cracked computer screen">
+            </div>
+            <!--creating the four benefits row with 2 columns per row for anything above mobile-->
+            <div class="container">
+                <div id="benefits"></div>
+                <h2 class="text-center">Why use Bootstrap?</h2>
+
+                <div class="row row-cols-1 row-cols-md-2">
+                    <section>
+                        <img class="img-fluid py-3" src="images/much-faster-img2.jpg" alt="web development code">
+                        <h4>Much Faster</h4>
+                        <p>Using Bootstrap is siginificantly faster than coding your entire website by hand. It gives
+                            you access to plenty of pre made templates to save you the time of creating basic website
+                            elements</p>
+                    </section>
+
+                    <section>
+                        <img class="img-fluid py-3" src="images/easier-to-use-img2.jpg" alt="computer mouse">
+                        <h4>Easier to use</h4>
+                        <p>Understanding HTML and CSS can be very confusing. Bootstrap is basically a much more
+                            effecient preloaded elements with preset guidelines that help minimize silly errors and
+                            mistakes.</p>
+                    </section>
+
+                    <section>
+                        <img class="img-fluid py-3" src="images/used-by-professionals-img2.jpg" alt="guy working">
+                        <h4>Used by professionals</h4>
+                        <p>If Bootstrap wasn't better than coding by hand then no one would use it! You're not missing
+                            out on quality or custimizability by using Bootstrap. Put your time and resources elsewhere
+                            by not having to code an entire website by hand</p>
+                    </section>
+
+                    <section>
+                        <img class="img-fluid py-3" src="images/section-4.jpg" alt="fibre optic cables">
+                        <h4>Supports All Major Browsers</h4>
+                        <p>All web browsers are supported which means everything you build using Bootstrap will work on
+                            99% of devices in the world. This can save a ton of time and knowledge that junior
+                            developers may not notice.</p>
+                    </section>
+                </div>
+            </div>
+            <!--Adding testimonails section with imgs in circles and dropshadows. Mobile drops down to 1 column per row-->
+            <div id="testimonials" class="container">
+                <h2 class="text-center">Testimonials</h2>
+                <div class="row row-cols-1 row-cols-md-3 text-white">
+                    <section class="shadow bg-secondary px-3">
+                        <img class="img-fluid py-3 rounded-circle" src="images/headshot-1.jpg" alt="Jared Leto">
+                        <h4>Jared Leto</h4>
+                        <p>I love using Bootstrap when I'm working on a website. It's easy to work on different pages
+                            with colleagues and always works on different web browsers which saves me a lot of time and
+                            potentially frustration.</p>
+                    </section>
+
+                    <section class="shadow py-3 bg-secondary text-white">
+                        <img class="img-fluid py-3 rounded-circle" src="images/headshot-2.jpg" alt="Anthony Chan">
+                        <h4>Anthony Chan</h4>
+                        <p>Sometimes I still tweak things with custom CSS but for the most part I can accomplish
+                            anything I can imagine using Bootstrap. Saves me a ton of time and brain power that I can
+                            put towards other improving other elements of design.</p>
+                    </section>
+
+                    <section class="shadow py-3 bg-secondary text-white">
+                        <img class="img-fluid py-3 rounded-circle" src="images/headshot-3.jpg" alt="Jackie Bourquin">
+                        <h4>Jackie Bourquin</h4>
+                        <p>It took a little while for me to figure out but once I did I loved it! Fortunately for me,
+                            there is a very supportive and welcoming community behind Bootstrap. Anytime I'm stuck on
+                            something I just reach out and someone can help me. It feels like cheating!</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--Adding Resouce section with working links-->
+        <div id="resources" class="container py-5 text-center">
+            <h2 class="text-center">Resources</h2>
+            <p>If you find yourself struggling to figure out a section, our best piece of advice is to actually walk
+                away! Take 15 minutes to make a coffee, go for a walk, or just get up from your desk for a while. You'd
+                be suprised what you subconcious can do while you're focusing on something else!</p>
+            <div class="py-3">
+                <a class="btn btn-danger mb-1"
+                    href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap Community</a>
+                <a class="btn btn-danger mb-1"
+                    href="https://www.youtube.com/watch?v=gqOEoUR5RHg&ab_channel=DerekBanas">YouTube Tutorial</a>
+                <a class="btn btn-danger mb-1" href="https://www.reddit.com/r/bootstrap/">Reddit Community</a>
+
+            </div>
+        </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
